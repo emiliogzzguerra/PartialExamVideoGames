@@ -7,7 +7,7 @@ package videogame;
 
 /**
  *
- * @author emiliogonzalez
+ * @author antoniomejorado
  */
 public class VideoGame {
 
@@ -16,6 +16,8 @@ public class VideoGame {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        Game g = new Game("Juego", 800, 500);
+        g.start();
     }
     
 }
